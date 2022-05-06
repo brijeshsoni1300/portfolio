@@ -1,0 +1,17 @@
+.blue_color{
+    color: #56dbbf;
+}
+
+.logo_style{
+    text-decoration: none;
+    font-size: 2em;
+    margin-left: 1.5em;
+}
+
+
+.button_border{
+    margin: auto 1em auto 1em;
+    padding: 0.5em;
+    border: 1.5px solid #56dbbf;
+    border-radius: 10%;
+}
