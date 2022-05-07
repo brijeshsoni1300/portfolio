@@ -1,0 +1,50 @@
+.about {
+    display: grid;
+    padding-left: 10rem;
+    padding-top: 5rem;
+    padding-right: 10rem;
+    grid-template-columns: 2fr 1fr;
+    gap: 24px;
+}
+
+h1{
+    margin-bottom: 2rem;
+    color: #ccd6f6;
+}
+.blue_color {
+    color: #56dbbf;
+}
+
+.disc_text_color {
+    width: 80%;
+    color: #8892b0;
+}
+
+.character {
+    font-size: 2rem;
+    transition-duration: 25ms;
+    transition-timing-function: steps(2, jump-both);
+    transition-property: color font-size;
+}
+
+.character:hover {
+    font-size: 1rem;
+    color: white;
+}
+
+.about_ul {
+    columns: 2;
+    list-style: none;
+    margin-left: 0;
+    padding-left: 1em;
+}
+
+.about_ul li:before{
+    content: "\2022";
+    color: #56dbbf;
+    font-size: 1em;
+    font-weight: bolder;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
