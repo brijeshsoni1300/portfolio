@@ -7,10 +7,8 @@ import Home from "./components/home/Home";
 import About from "./components/About/About";
 import Experiance from './components/Experience/Experience';
 function App() {
-  
   return (
     <>
-      
       <NavBar />
       <Home />
       <About />
