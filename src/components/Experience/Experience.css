@@ -1,0 +1,23 @@
+.experience{
+    padding-left: 10rem;
+    padding-top: 5rem;
+    padding-right: 10rem;
+	
+}
+
+.experienc_grid{
+	display: grid;
+	grid-template-columns: 1fr 4fr;
+}
+
+.blue_color {
+    color: #56dbbf;
+}
+
+.white_color{
+	color: #ccd6f6;
+}
+
+.dull_white_color{
+	color: #8892b0;
+}
